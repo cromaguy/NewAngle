@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project NewAngle AI</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@32,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/plugins/line-numbers/prism-line-numbers.min.js"
+        defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-python.min.js" defer></script>
+    <meta name="description" content="An intelligent chat assistant to help with your questions">
+</head>
+
+<body>
+    <div class="container">
+        <header class="app-header">
+            <h1 class="heading">NewAngle AI</h1>
+            <h4 class="sub-heading">Ask me anything to get started</h4>
+        </header>
+        <ul class="suggestions">
+            <li class="suggestions-item">
+                <p class="text">Design a home office setup for remote work under $500.</p>
+                <span class="icon material-symbols-rounded">draw</span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">How can I level up my web development expertise in 2025?</p>
+                <span class="icon material-symbols-rounded">lightbulb</span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">Suggest some useful tools for debugging JavaScript code.</p>
+                <span class="icon material-symbols-rounded">explore</span>
+            </li>
+            <li class="suggestions-item">
+                <p class="text">Create a React JS component for the simple todo list app.</p>
+                <span class="icon material-symbols-rounded">code_blocks</span>
+            </li>
+        </ul>
+        <div class="chats-container"></div>
+        <div class="prompt-container">
+            <div class="prompt-wrapper">
+                <form action="#" class="prompt-form">
+                    <input type="text" placeholder="Ask your question..." class="prompt-input" required />
+                    <div class="prompt-actions">
+                        <div class="file-upload-wrapper">
+                            <img src="#" class="file-preview" alt="File preview" />
+                            <input id="file-input" type="file" accept="image/*, .pdf, .txt, .csv" hidden />
+                            <button type="button" class="file-icon material-symbols-rounded">description</button>
+                            <button id="cancel-file-btn" type="button" class="material-symbols-rounded">close</button>
+                            <button id="add-file-btn" type="button"
+                                class="material-symbols-rounded">attach_file</button>
+                        </div>
+                        <button id="stop-response-btn" type="button"
+                            class="material-symbols-rounded">stop_circle</button>
+                        <button id="send-prompt-btn" class="material-symbols-rounded">arrow_upward</button>
+                    </div>
+                </form>
+                <button id="theme-toggle-btn" class="material-symbols-rounded">light_mode</button>
+                <button id="delete-chats-btn" class="material-symbols-rounded">delete</button>
+            </div>
+            <p class="disclaimer-text">Based on Gemini 1.5 Flash. Please verify important information.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
