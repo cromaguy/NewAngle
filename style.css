@@ -283,6 +283,7 @@ body.chats-active .container :where(.app-header, .suggestions) {
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
+    margin-bottom: 10%;
 }
 
 .chats-container .message {
@@ -438,6 +439,8 @@ body.chats-active .container :where(.app-header, .suggestions) {
 }
 
 .container .prompt-container {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     position: fixed;
     width: 100%;
     left: 0;
