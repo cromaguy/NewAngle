@@ -96,6 +96,20 @@ body.light-theme {
     border-radius: 3px;
 }
 
+.badge {
+    font-size: 2.5rem;
+    background: linear-gradient(to right, var(--accent-color), #004cff);
+    color: white;
+    padding: 5px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+    vertical-align: middle;
+    -webkit-text-fill-color: white;
+    animation: pulse 2s infinite;
+}
+
 .app-header .heading {
     width: fit-content;
     margin: 0 auto;
@@ -142,8 +156,22 @@ body.light-theme {
 }
 
 @media (max-width: 768px) {
+    .badge {
+        display: inline-block;
+        font-size: 1.0rem;
+        background: linear-gradient(to right, var(--accent-color), #004cff);
+        color: white;
+        padding: 5px;
+        margin-left: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 25px;
+        vertical-align: middle;
+        -webkit-text-fill-color: white;
+        animation: pulse 2s infinite;
+    }
     .app-header .heading {
-        font-size: 2.5rem;
+        font-size: 2.4rem;
         display: inline-block;
     }
 
