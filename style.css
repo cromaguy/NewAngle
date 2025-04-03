@@ -15,7 +15,7 @@
     --secondary-color: #283045;
     --secondary-hover-color: #333e58;
     --scrollbar-color: #626a7f;
-    --accent-color: #1d7efd;
+    --accent-color: #0094fe;
     --accent-hover: #0264e3;
     --error-color: #d62939;
     --success-color: #28a745;
@@ -92,7 +92,7 @@ body.light-theme {
     transform: translateX(-50%);
     width: 150px;
     height: 3px;
-    background: linear-gradient(to right, var(--accent-color), #8f6fff);
+    background: linear-gradient(to right, var(--accent-color), #6f9aff);
     border-radius: 3px;
 }
 
@@ -100,7 +100,7 @@ body.light-theme {
     width: fit-content;
     margin: 0 auto;
     font-size: 3.5rem;
-    background: linear-gradient(to right, var(--accent-color), #8f6fff);
+    background: linear-gradient(to right, var(--accent-color), #004cff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-shadow: 0 2px 10px rgba(29, 126, 253, 0.1);
