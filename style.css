@@ -97,7 +97,7 @@ body.light-theme {
 }
 
 .badge {
-    font-size: 2.2rem;
+    font-size: 2.0rem;
     background: linear-gradient(to right, var(--accent-color), #004cff);
     color: white;
     padding: 5px;
@@ -113,7 +113,7 @@ body.light-theme {
 .app-header .heading {
     width: fit-content;
     margin: 0 auto;
-    font-size: 3.5rem;
+    font-size: 3.0rem;
     background: linear-gradient(to right, var(--accent-color), #004cff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -139,7 +139,7 @@ body.light-theme {
 }
 
 .app-header .sub-heading {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-top: 10px;
     color: var(--subheading-color);
     font-weight: 400;
