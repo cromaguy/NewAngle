@@ -283,7 +283,7 @@ body.chats-active .container :where(.app-header, .suggestions) {
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
-    margin-bottom: 10%;
+    margin-bottom: 20%;
 }
 
 .chats-container .message {
